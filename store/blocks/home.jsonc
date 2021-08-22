@@ -1,0 +1,62 @@
+{
+  "store.home": {
+    "blocks": [
+      "flex-layout.row#bar"
+    ]
+  },
+  "flex-layout.row#bar": {
+    "children": [
+      "tab-layout#home"
+    ]
+  },
+  "flex-layout.row#slider": {
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": false,
+      "preventVerticalStretch": true,
+      "fullWidth": true
+    },
+    "children": [
+      "flex-layout.col#slider"
+    ]
+  },
+  "flex-layout.col#slider": {
+    "props": {
+      "width": "70%",
+      "horizontalAlign": "center"
+    },
+    "children": [
+      "slider-layout#home"
+    ]
+  },
+  "slider-layout#home": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "carousel"
+    },
+    "children": [
+      "image#1",
+      "image#2"
+    ]
+  },
+  "image#1": {
+    "props": {
+      "src": "https://maratonavirtual.s3.sa-east-1.amazonaws.com/6iibxhv7jzzdn2749uhoxub2fdjf?response-content-disposition=inline%3B%20filename%3D%22BANNER-WOOD.png%22%3B%20filename%2A%3DUTF-8%27%27BANNER-WOOD.png&response-content-type=image%2Fpng&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIRHGNFPZAGTZ7SUA%2F20210822%2Fsa-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210822T150009Z&X-Amz-Expires=300&X-Amz-SignedHeaders=host&X-Amz-Signature=375bdc8b2a9665036fa2d6cb2f148b477b0ac3ab3eb7c1fd8cf88fd62b966762",
+      "maxWidth": "100%",
+      "maxHeight": "100"
+    }
+  },
+  "image#2": {
+    "props": {
+      "src": "https://maratonavirtual.s3.sa-east-1.amazonaws.com/du3k6akoks0u3xe322aypnaaal8e?response-content-disposition=inline%3B%20filename%3D%22W6S9NXIJ40I86DJI17S40123EYNM3J6CNF24M4Y04GGC9TBSXU.png%22%3B%20filename%2A%3DUTF-8%27%27W6S9NXIJ40I86DJI17S40123EYNM3J6CNF24M4Y04GGC9TBSXU.png&response-content-type=image%2Fpng&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIRHGNFPZAGTZ7SUA%2F20210822%2Fsa-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210822T150116Z&X-Amz-Expires=300&X-Amz-SignedHeaders=host&X-Amz-Signature=fd7262eb4cbcb1d92c0dde578cbc18cf88be944e1b11050d5fad90245ea20535",
+      "maxWidth": "100%"
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "footer": {
+    "blocks": [
+      "footer-layout.desktop",
+      "footer-layout.mobile"
+    ]
+  },
+  "footer-layout.desktop": {
+    "children": [
+      "flex-layout.row#footer"
+    ]
+  },
+  "footer-layout.mobile": {
+    "children": [
+      "flex-layout.row#footer"
+    ]
+  },
+  "flex-layout.row#footer": {
+    "props": {
+      "blockClass": "footerMenu"
+    },
+    "children": [
+      "menu#footermenu"
+    ]
+  },
+  "menu#footermenu": {
+    "props": {
+      "items": [
+        {
+          "id": "menu-item-about-us",
+          "type": "custom",
+          "iconId": "",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "https://api.whatsapp.com/send?phone=5511981856955&text=Bem%20Vindo%20a%20UpMedal%2C%20Qual%20a%20sua%20d%C3%BAvida%3F",
+            "noFollow": false,
+            "tagTitle": "Suporte",
+            "text": "Suporte"
+          }
+        }
+      ]
+    }
+  }
+}
